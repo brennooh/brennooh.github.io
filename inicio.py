@@ -108,6 +108,10 @@ print (stri)
 for xaxaxaxaxaxaxaxa in li:
     print (xaxaxaxaxaxaxaxa)
 
+li = [1,2,3,4,5,6,7,8]
+for i, el in enumerate (li):
+    print (i, ";", el)
+
 # random
 li0 = list(range(1,100,2))
 print (li0)
@@ -115,3 +119,6 @@ li1 = list(i**2 for i in li0)
 print (li1)
 li2 =list(e for e in li0 if e%3 ==0)
 print (li2)
+Matriz = list(list((i,j) for j in range (4)) for i in range (4))
+for linha in Matriz:
+    print (linha)
