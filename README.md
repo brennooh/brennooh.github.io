@@ -1,1 +1,0 @@
-# JoaoRQG.github.io
