@@ -174,3 +174,4 @@ function Q5() {
     console.log(C);
     document.getElementById('RQ5').innerHTML = mostraMatriz(C);
 }
+// fim
